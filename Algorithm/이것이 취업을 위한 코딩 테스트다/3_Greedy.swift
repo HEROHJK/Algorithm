@@ -76,10 +76,10 @@ func greedy2_2(input: String, numberString: String) {
 // greedy2_1(input: "5 8 3", numberString: "2 4 5 4 6")
 // greedy2_2(input: "5 8 3", numberString: "2 4 5 4 6")
 
-func greedy3(inputSize: String, cardsString: String...) {
+func greedy3(inputSize: String, cardsString: String...) -> Int {
     var numbers: [Int] = [0]
     cardsString.forEach { numbers.append($0.split(separator: " ").compactMap { Int($0) }.sorted()[0]) }
-    print(numbers.sorted(by: >)[0])
+    return numbers.sorted(by: >)[0]
 }
 
 // greedy3(inputSize: "2 4", cardsString: "7 3 1 8", "3 3 3 4")

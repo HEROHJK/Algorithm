@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D006C2B627504EB800F4AF03 /* 4_Implement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D006C2B527504EB800F4AF03 /* 4_Implement.swift */; };
 		D0480A3E274F075200253EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A3D274F075200253EEB /* main.swift */; };
 		D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A45274F076E00253EEB /* 3_Greedy.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D006C2B527504EB800F4AF03 /* 4_Implement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_\bImplement.swift"; sourceTree = "<group>"; };
 		D0480A3A274F075200253EEB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0480A3D274F075200253EEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D0480A45274F076E00253EEB /* 3_Greedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_Greedy.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				D0480A45274F076E00253EEB /* 3_Greedy.swift */,
+				D006C2B527504EB800F4AF03 /* 4_Implement.swift */,
 			);
 			name = "이것이 취업을 위한 코딩 테스트다";
 			path = "이것이 취업을 위한 코딩 테스트다";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D006C2B627504EB800F4AF03 /* 4_Implement.swift in Sources */,
 				D0480A3E274F075200253EEB /* main.swift in Sources */,
 				D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */,
 			);
