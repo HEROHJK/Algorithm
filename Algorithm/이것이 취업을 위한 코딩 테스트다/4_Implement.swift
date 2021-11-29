@@ -8,15 +8,11 @@ func implement1(size: Int, wayString: String) -> String {
     var y = 0
     for way in wayString.split(separator: " ") {
         switch way {
-        case "L":
-            if y > 0 { y -= 1 }
-        case "R":
-            if y < size { y += 1 }
-        case "U":
-            if x > 0 { x -= 1 }
-        case "D":
-            if x < size { x += 1 }
-        default: fatalError("way Error")
+        case "L" where y > 0: y -= 1
+        case "R" where y < size: y += 1
+        case "U" where x > 0: x -= 1
+        case "D" where x < size: x += 1
+        default: break
         }
     }
     
