@@ -10,6 +10,8 @@
 		D006C2B627504EB800F4AF03 /* 4_Implement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D006C2B527504EB800F4AF03 /* 4_Implement.swift */; };
 		D0480A3E274F075200253EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A3D274F075200253EEB /* main.swift */; };
 		D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A45274F076E00253EEB /* 3_Greedy.swift */; };
+		D0C9EFE52755A80000CB3FA4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C9EFE42755A80000CB3FA4 /* Stack.swift */; };
+		D0C9EFE72755A91300CB3FA4 /* NotClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C9EFE62755A91300CB3FA4 /* NotClear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		D0480A3A274F075200253EEB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0480A3D274F075200253EEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D0480A45274F076E00253EEB /* 3_Greedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_Greedy.swift; sourceTree = "<group>"; };
+		D0C9EFE42755A80000CB3FA4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		D0C9EFE62755A91300CB3FA4 /* NotClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotClear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		D0480A3C274F075200253EEB /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D0C9EFE32755A7EE00CB3FA4 /* 프로그래머스 */,
 				D0480A44274F075E00253EEB /* 이것이 취업을 위한 코딩 테스트다 */,
 				D0480A3D274F075200253EEB /* main.swift */,
 			);
@@ -75,6 +80,16 @@
 			);
 			name = "이것이 취업을 위한 코딩 테스트다";
 			path = "이것이 취업을 위한 코딩 테스트다";
+			sourceTree = "<group>";
+		};
+		D0C9EFE32755A7EE00CB3FA4 /* 프로그래머스 */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9EFE42755A80000CB3FA4 /* Stack.swift */,
+				D0C9EFE62755A91300CB3FA4 /* NotClear.swift */,
+			);
+			name = "프로그래머스";
+			path = "프로그래머스";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C9EFE72755A91300CB3FA4 /* NotClear.swift in Sources */,
+				D0C9EFE52755A80000CB3FA4 /* Stack.swift in Sources */,
 				D006C2B627504EB800F4AF03 /* 4_Implement.swift in Sources */,
 				D0480A3E274F075200253EEB /* main.swift in Sources */,
 				D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */,

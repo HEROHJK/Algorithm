@@ -124,8 +124,8 @@ func implement3(_ startPoint: String) -> Int {
     // if y + 1 > 7 { count -= 1 }
     // 위 코드를 x, y가 아닌 2개의 좌표배열, 그리고 반복문으로 실행하면 이런 로직이 완성된다.
     for point in points {
-        for value in 1 ... 2 {
-            if point - value < 0 || point + value > max { count -= value }
+        for value in 1 ... 2 where point - value < 0 || point + value > max {
+            count -= value
         }
     }
     
@@ -146,8 +146,8 @@ func implement3_1(_ startPoint: String) -> Int {
     }
     
     for point in points {
-        for value in 1 ... 2 {
-            if point - value < 0 || point + value > max { count -= value }
+        for value in 1 ... 2 where point - value < 0 || point + value > max {
+            count -= value
         }
     }
     
