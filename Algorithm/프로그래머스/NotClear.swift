@@ -33,4 +33,3 @@ func tuple(_ s: String) -> [Int] {
     
     return intArr
 }
-
