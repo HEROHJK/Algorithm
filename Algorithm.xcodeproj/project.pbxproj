@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613865632759703C003D3007 /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613865622759703C003D3007 /* Level2.swift */; };
 		D006C2B627504EB800F4AF03 /* 4_Implement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D006C2B527504EB800F4AF03 /* 4_Implement.swift */; };
 		D0480A3E274F075200253EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A3D274F075200253EEB /* main.swift */; };
 		D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A45274F076E00253EEB /* 3_Greedy.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		613865622759703C003D3007 /* Level2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
 		D006C2B527504EB800F4AF03 /* 4_Implement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_\bImplement.swift"; sourceTree = "<group>"; };
 		D0480A3A274F075200253EEB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0480A3D274F075200253EEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				D0C9EFE62755A91300CB3FA4 /* NotClear.swift */,
 				D0C9EFEB27583D5000CB3FA4 /* DynamicProgramming.swift */,
 				D0F0AB0F27584D51003F8C56 /* Greedy.swift */,
+				613865622759703C003D3007 /* Level2.swift */,
 			);
 			name = "프로그래머스";
 			path = "프로그래머스";
@@ -175,6 +178,7 @@
 				D0C9EFE52755A80000CB3FA4 /* Stack.swift in Sources */,
 				D006C2B627504EB800F4AF03 /* 4_Implement.swift in Sources */,
 				D0C9EFEA2755C12E00CB3FA4 /* notepad.swift in Sources */,
+				613865632759703C003D3007 /* Level2.swift in Sources */,
 				D0480A3E274F075200253EEB /* main.swift in Sources */,
 				D0F0AB14275879F2003F8C56 /* 5_Search.swift in Sources */,
 				D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */,
