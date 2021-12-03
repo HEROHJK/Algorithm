@@ -2,6 +2,8 @@ import Foundation
 
 // MARK: - 튜플
 // https://programmers.co.kr/learn/courses/30/lessons/64065
+// MARK: -
+
 func tuple(_ s: String) -> [Int] {
     var intArrArr = [[Int]]()
     var s = s

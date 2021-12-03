@@ -2,6 +2,8 @@ import Foundation
 
 // MARK: - 가장 큰 정사각형
 // https://programmers.co.kr/learn/courses/30/lessons/12905
+// MARK: -
+
 func maxSquare(_ board:[[Int]]) -> Int {
     var maxSize = 0
     var board = board

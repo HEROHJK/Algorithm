@@ -2,6 +2,7 @@ import Foundation
 
 // MARK: - [1차] 뉴스 클러스터링
 // https://programmers.co.kr/learn/courses/30/lessons/17677
+// MARK: -
 
 func jacquardPattern(_ str1:String, _ str2:String) -> Int {
     let str1Array = Array(str1.lowercased())

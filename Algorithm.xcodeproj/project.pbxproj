@@ -20,6 +20,8 @@
 		D0F0AB252759A4BA003F8C56 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB242759A4BA003F8C56 /* Tuple.swift */; };
 		D0F0AB272759A4DE003F8C56 /* MaxSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB262759A4DE003F8C56 /* MaxSquare.swift */; };
 		D0F0AB292759A4F1003F8C56 /* TurnParen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB282759A4F1003F8C56 /* TurnParen.swift */; };
+		D0F0AB2B2759B45B003F8C56 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB2A2759B45B003F8C56 /* Printer.swift */; };
+		D0F0AB2D2759E6D6003F8C56 /* TriangleSnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB2C2759E6D6003F8C56 /* TriangleSnail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,8 @@
 		D0F0AB242759A4BA003F8C56 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
 		D0F0AB262759A4DE003F8C56 /* MaxSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSquare.swift; sourceTree = "<group>"; };
 		D0F0AB282759A4F1003F8C56 /* TurnParen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnParen.swift; sourceTree = "<group>"; };
+		D0F0AB2A2759B45B003F8C56 /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		D0F0AB2C2759E6D6003F8C56 /* TriangleSnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleSnail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 				D0F0AB242759A4BA003F8C56 /* Tuple.swift */,
 				D0F0AB262759A4DE003F8C56 /* MaxSquare.swift */,
 				D0F0AB282759A4F1003F8C56 /* TurnParen.swift */,
+				D0F0AB2A2759B45B003F8C56 /* Printer.swift */,
+				D0F0AB2C2759E6D6003F8C56 /* TriangleSnail.swift */,
 			);
 			path = Level2;
 			sourceTree = "<group>";
@@ -193,9 +199,11 @@
 				D006C2B627504EB800F4AF03 /* 4_Implement.swift in Sources */,
 				613865632759703C003D3007 /* Notepad.swift in Sources */,
 				D0F0AB272759A4DE003F8C56 /* MaxSquare.swift in Sources */,
+				D0F0AB2D2759E6D6003F8C56 /* TriangleSnail.swift in Sources */,
 				D0480A3E274F075200253EEB /* main.swift in Sources */,
 				D0F0AB252759A4BA003F8C56 /* Tuple.swift in Sources */,
 				D0F0AB1B2759A439003F8C56 /* JacquardPattern.swift in Sources */,
+				D0F0AB2B2759B45B003F8C56 /* Printer.swift in Sources */,
 				D0F0AB292759A4F1003F8C56 /* TurnParen.swift in Sources */,
 				D0F0AB1D2759A454003F8C56 /* TargetNumber.swift in Sources */,
 				D0F0AB232759A4A1003F8C56 /* ThatSong.swift in Sources */,
