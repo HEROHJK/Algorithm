@@ -1,31 +1,5 @@
 import Foundation
 
-// MARK: - 스킬트리
-// https://programmers.co.kr/learn/courses/30/lessons/49993
-func gameSkillTree(_ skill:String, _ skill_trees:[String]) -> Int {
-    var count = 0
-    for skillTree in skill_trees {
-        var skillOrders = [Int]()
-        for ch in skill {
-            skillOrders.append(skillTree.firstIndexInt(of: ch))
-        }
-        
-        if skillOrders == skillOrders.sorted() {
-            count += 1
-        }
-    }
-    return count
-}
-
-
-extension String {
-    func firstIndexInt(of: Character) -> Int {
-        if let firstIndex = self.firstIndex(of: of) {
-            return Int(firstIndex.utf16Offset(in: self))
-        } else { return self.count }
-    }
-}
-
 // MARK: - 방금 그 곡
 // https://programmers.co.kr/learn/courses/30/lessons/17683
 func thatSong(_ m:String, _ musicinfos:[String]) -> String {
@@ -94,40 +68,4 @@ func makeFullSong(_ m: String, _ musicLength: Int) -> String {
     }
     
     return str
-}
-
-// MARK: - 튜플
-// https://programmers.co.kr/learn/courses/30/lessons/64065
-func tuple(_ s: String) -> [Int] {
-    var intArrArr = [[Int]]()
-    var s = s
-    s.removeFirst()
-    s.removeLast()
-    
-    for numberString in s.components(separatedBy: "},{") {
-        let numberString = numberString
-            .replacingOccurrences(of: "{", with: "")
-            .replacingOccurrences(of: "}", with: "")
-        let numbers = numberString.split(separator: ",")
-        var intArr = [Int]()
-        for number in numbers {
-            intArr.append(Int(number)!)
-        }
-        intArrArr.append(intArr)
-    }
-    
-    intArrArr.sort {
-        $0.count < $1.count
-    }
-    
-    var intArr = [Int]()
-    
-    intArrArr.forEach {
-        $0.forEach {
-            if !intArr.contains($0) { intArr.append($0) }
-        }
-    }
-    
-    
-    return intArr
 }

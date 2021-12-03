@@ -1,6 +1,6 @@
 import Foundation
 
-// [1차] 뉴스 클러스터링
+// MARK: - [1차] 뉴스 클러스터링
 // https://programmers.co.kr/learn/courses/30/lessons/17677
 
 func jacquardPattern(_ str1:String, _ str2:String) -> Int {
@@ -47,6 +47,7 @@ func jacquardPattern(_ str1:String, _ str2:String) -> Int {
     return result
 }
 
+// MARK: TestCase
 //print(jacquardPattern("FRANCE", "FRENCH"))
 //print(jacquardPattern("handshake", "shake hands"))
 //print(jacquardPattern("aa1+aa2", "aaaa12"))
