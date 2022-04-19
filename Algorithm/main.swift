@@ -18,4 +18,6 @@ func processTime(_ text: String = "", closure: () -> ()){
 //print(name("JAZ"))
 //print(name("JEROEN"))
 //print(name("JAN")
-print(triangleSnail(1000))
+//print(triangleSnail(1000))
+
+print(twoBigBunberSum([2,1,3,4,1]))
