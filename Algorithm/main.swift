@@ -20,4 +20,4 @@ func processTime(_ text: String = "", closure: () -> ()){
 //print(name("JAN")
 //print(triangleSnail(1000))
 
-print(twoBigBunberSum([2,1,3,4,1]))
+print(twoAdd([2,1,3,4,1]))

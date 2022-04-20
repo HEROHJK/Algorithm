@@ -4,7 +4,7 @@ import Foundation
 // https://programmers.co.kr/learn/courses/30/lessons/68644
 // MARK: -
 
-func twoBigBunberSum(_ numbers:[Int]) -> [Int] {
+func twoAdd(_ numbers:[Int]) -> [Int] {
     var sumList = Set<Int>()
     
     for i in 0 ..< numbers.count - 1 {
