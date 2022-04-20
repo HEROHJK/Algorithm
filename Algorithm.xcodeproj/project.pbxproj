@@ -12,6 +12,7 @@
 		D02E2E15280E9A4D000FF712 /* TwoAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02E2E14280E9A4D000FF712 /* TwoAdd.swift */; };
 		D0480A3E274F075200253EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A3D274F075200253EEB /* main.swift */; };
 		D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A45274F076E00253EEB /* 3_Greedy.swift */; };
+		D0C71670280FE670004B7A01 /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C7166F280FE670004B7A01 /* Lessons.swift */; };
 		D0F0AB14275879F2003F8C56 /* 5_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB13275879F2003F8C56 /* 5_Search.swift */; };
 		D0F0AB1B2759A439003F8C56 /* JacquardPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB1A2759A439003F8C56 /* JacquardPattern.swift */; };
 		D0F0AB1D2759A454003F8C56 /* TargetNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB1C2759A454003F8C56 /* TargetNumber.swift */; };
@@ -44,6 +45,7 @@
 		D0480A3A274F075200253EEB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0480A3D274F075200253EEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D0480A45274F076E00253EEB /* 3_Greedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_Greedy.swift; sourceTree = "<group>"; };
+		D0C7166F280FE670004B7A01 /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
 		D0F0AB13275879F2003F8C56 /* 5_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_Search.swift; sourceTree = "<group>"; };
 		D0F0AB1A2759A439003F8C56 /* JacquardPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacquardPattern.swift; sourceTree = "<group>"; };
 		D0F0AB1C2759A454003F8C56 /* TargetNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetNumber.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		D0480A3C274F075200253EEB /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D0C71671280FE948004B7A01 /* Codility */,
 				D0C9EFE82755C12400CB3FA4 /* ETC */,
 				D0C9EFE32755A7EE00CB3FA4 /* 프로그래머스 */,
 				D0480A44274F075E00253EEB /* 이것이 취업을 위한 코딩 테스트다 */,
@@ -112,6 +115,14 @@
 			);
 			name = "이것이 취업을 위한 코딩 테스트다";
 			path = "이것이 취업을 위한 코딩 테스트다";
+			sourceTree = "<group>";
+		};
+		D0C71671280FE948004B7A01 /* Codility */ = {
+			isa = PBXGroup;
+			children = (
+				D0C7166F280FE670004B7A01 /* Lessons.swift */,
+			);
+			path = Codility;
 			sourceTree = "<group>";
 		};
 		D0C9EFE32755A7EE00CB3FA4 /* 프로그래머스 */ = {
@@ -211,6 +222,7 @@
 				613865632759703C003D3007 /* Notepad.swift in Sources */,
 				D02E2E15280E9A4D000FF712 /* TwoAdd.swift in Sources */,
 				D0F0AB272759A4DE003F8C56 /* MaxSquare.swift in Sources */,
+				D0C71670280FE670004B7A01 /* Lessons.swift in Sources */,
 				D0F0AB2D2759E6D6003F8C56 /* TriangleSnail.swift in Sources */,
 				D0480A3E274F075200253EEB /* main.swift in Sources */,
 				D0F0AB252759A4BA003F8C56 /* Tuple.swift in Sources */,

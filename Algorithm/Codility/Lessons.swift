@@ -1,6 +1,6 @@
-// 코딜리티 레슨1
+// 코딜리티 레슨 - https://app.codility.com/programmers/lessons
 
-// MARK: - 바이너리 갭
+// MARK: - Lesson 1. 바이너리 갭
 // https://app.codility.com/programmers/lessons/1-iterations/
 // MARK: -
 
@@ -23,4 +23,19 @@ func binaryInterval(_ N: Int) -> Int{
     }
     
     return max
+}
+
+// MARK: - Lesson 2. 순환 회전
+// https://app.codility.com/programmers/lessons/2-arrays/
+// MARK: -
+func cyclicRotation(_ A: inout [Int], _ K: Int) -> [Int] {
+    guard A.count > 0 else { return A }
+    let K = K % A.count
+    
+    for _ in 0 ..< K {
+        A.insert(A[A.count - 1], at: 0)
+        A.remove(at: A.count - 1)
+    }
+    
+    return A
 }
