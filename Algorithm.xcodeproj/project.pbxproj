@@ -12,6 +12,10 @@
 		D02E2E15280E9A4D000FF712 /* TwoAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02E2E14280E9A4D000FF712 /* TwoAdd.swift */; };
 		D0480A3E274F075200253EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A3D274F075200253EEB /* main.swift */; };
 		D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0480A45274F076E00253EEB /* 3_Greedy.swift */; };
+		D0B03CCF2810DCCE0008142C /* Sweat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B03CCE2810DCCE0008142C /* Sweat.swift */; };
+		D0B03CD12810F7F40008142C /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B03CD02810F7F40008142C /* Example.swift */; };
+		D0B03CD328110BFF0008142C /* NumberK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B03CD228110BFF0008142C /* NumberK.swift */; };
+		D0B03CD5281139D30008142C /* RemovePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B03CD4281139D30008142C /* RemovePair.swift */; };
 		D0C71670280FE670004B7A01 /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C7166F280FE670004B7A01 /* Lessons.swift */; };
 		D0F0AB14275879F2003F8C56 /* 5_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB13275879F2003F8C56 /* 5_Search.swift */; };
 		D0F0AB1B2759A439003F8C56 /* JacquardPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AB1A2759A439003F8C56 /* JacquardPattern.swift */; };
@@ -45,6 +49,10 @@
 		D0480A3A274F075200253EEB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0480A3D274F075200253EEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D0480A45274F076E00253EEB /* 3_Greedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_Greedy.swift; sourceTree = "<group>"; };
+		D0B03CCE2810DCCE0008142C /* Sweat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweat.swift; sourceTree = "<group>"; };
+		D0B03CD02810F7F40008142C /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		D0B03CD228110BFF0008142C /* NumberK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberK.swift; sourceTree = "<group>"; };
+		D0B03CD4281139D30008142C /* RemovePair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovePair.swift; sourceTree = "<group>"; };
 		D0C7166F280FE670004B7A01 /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
 		D0F0AB13275879F2003F8C56 /* 5_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_Search.swift; sourceTree = "<group>"; };
 		D0F0AB1A2759A439003F8C56 /* JacquardPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacquardPattern.swift; sourceTree = "<group>"; };
@@ -74,6 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				D02E2E14280E9A4D000FF712 /* TwoAdd.swift */,
+				D0B03CCE2810DCCE0008142C /* Sweat.swift */,
+				D0B03CD02810F7F40008142C /* Example.swift */,
+				D0B03CD228110BFF0008142C /* NumberK.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -156,6 +167,7 @@
 				D0F0AB282759A4F1003F8C56 /* TurnParen.swift */,
 				D0F0AB2A2759B45B003F8C56 /* Printer.swift */,
 				D0F0AB2C2759E6D6003F8C56 /* TriangleSnail.swift */,
+				D0B03CD4281139D30008142C /* RemovePair.swift */,
 			);
 			path = Level2;
 			sourceTree = "<group>";
@@ -224,16 +236,20 @@
 				D0F0AB272759A4DE003F8C56 /* MaxSquare.swift in Sources */,
 				D0C71670280FE670004B7A01 /* Lessons.swift in Sources */,
 				D0F0AB2D2759E6D6003F8C56 /* TriangleSnail.swift in Sources */,
+				D0B03CCF2810DCCE0008142C /* Sweat.swift in Sources */,
 				D0480A3E274F075200253EEB /* main.swift in Sources */,
 				D0F0AB252759A4BA003F8C56 /* Tuple.swift in Sources */,
 				D0F0AB1B2759A439003F8C56 /* JacquardPattern.swift in Sources */,
 				D0F0AB2B2759B45B003F8C56 /* Printer.swift in Sources */,
 				D0F0AB292759A4F1003F8C56 /* TurnParen.swift in Sources */,
 				D0F0AB1D2759A454003F8C56 /* TargetNumber.swift in Sources */,
+				D0B03CD12810F7F40008142C /* Example.swift in Sources */,
 				D0F0AB232759A4A1003F8C56 /* ThatSong.swift in Sources */,
 				D0F0AB14275879F2003F8C56 /* 5_Search.swift in Sources */,
 				D0F0AB212759A484003F8C56 /* SkillTree.swift in Sources */,
+				D0B03CD328110BFF0008142C /* NumberK.swift in Sources */,
 				D0F0AB1F2759A46F003F8C56 /* NextBigNumber.swift in Sources */,
+				D0B03CD5281139D30008142C /* RemovePair.swift in Sources */,
 				D0480A46274F076E00253EEB /* 3_Greedy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
