@@ -70,7 +70,23 @@ func processTime(_ text: String = "", closure: () -> ()){
 //processTime {
 //    print(removePair("cdcd"))
 //}
+//
+//processTime {
+//    print(removePair("dcdzzdcd"))
+//}
 
-processTime {
-    print(removePair("dcdzzdcd"))
-}
+//processTime {
+//    print(borderRotation(6, 6, [[2, 2, 5, 4], [3, 3, 6, 6], [5, 1, 6, 3]])) // [8, 10, 25]
+//}
+//
+//processTime {
+//    print(borderRotation(3, 3, [[1,1,2,2],[1,2,2,3],[2,1,3,2],[2,2,3,3]])) // [1, 1, 5, 3]
+//}
+//
+//processTime {
+//    print(borderRotation(100, 97, [[1,1,100,97]]    )) // [1]
+//}
+//
+//processTime {
+//    print(borderRotation(6, 5, [[1,1,6,5]])) // [1]
+//}
